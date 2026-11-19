@@ -1,0 +1,2388 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!29 &1
+OcclusionCullingSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_OcclusionBakeSettings:
+    smallestOccluder: 5
+    smallestHole: 0.25
+    backfaceThreshold: 100
+  m_SceneGUID: 00000000000000000000000000000000
+  m_OcclusionCullingData: {fileID: 0}
+--- !u!104 &2
+RenderSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 10
+  m_Fog: 0
+  m_FogColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+  m_FogMode: 3
+  m_FogDensity: 0.01
+  m_LinearFogStart: 0
+  m_LinearFogEnd: 300
+  m_AmbientSkyColor: {r: 0.212, g: 0.227, b: 0.259, a: 1}
+  m_AmbientEquatorColor: {r: 0.114, g: 0.125, b: 0.133, a: 1}
+  m_AmbientGroundColor: {r: 0.047, g: 0.043, b: 0.035, a: 1}
+  m_AmbientIntensity: 1
+  m_AmbientMode: 0
+  m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
+  m_SkyboxMaterial: {fileID: 10304, guid: 0000000000000000f000000000000000, type: 0}
+  m_HaloStrength: 0.5
+  m_FlareStrength: 1
+  m_FlareFadeSpeed: 3
+  m_HaloTexture: {fileID: 0}
+  m_SpotCookie: {fileID: 10001, guid: 0000000000000000e000000000000000, type: 0}
+  m_DefaultReflectionMode: 0
+  m_DefaultReflectionResolution: 128
+  m_ReflectionBounces: 1
+  m_ReflectionIntensity: 1
+  m_CustomReflection: {fileID: 0}
+  m_Sun: {fileID: 0}
+  m_UseRadianceAmbientProbe: 0
+--- !u!157 &3
+LightmapSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 13
+  m_BakeOnSceneLoad: 0
+  m_GISettings:
+    serializedVersion: 2
+    m_BounceScale: 1
+    m_IndirectOutputScale: 1
+    m_AlbedoBoost: 1
+    m_EnvironmentLightingMode: 0
+    m_EnableBakedLightmaps: 1
+    m_EnableRealtimeLightmaps: 0
+  m_LightmapEditorSettings:
+    serializedVersion: 12
+    m_Resolution: 2
+    m_BakeResolution: 40
+    m_AtlasSize: 1024
+    m_AO: 0
+    m_AOMaxDistance: 1
+    m_CompAOExponent: 1
+    m_CompAOExponentDirect: 0
+    m_ExtractAmbientOcclusion: 0
+    m_Padding: 2
+    m_LightmapParameters: {fileID: 0}
+    m_LightmapsBakeMode: 1
+    m_TextureCompression: 1
+    m_ReflectionCompression: 2
+    m_MixedBakeMode: 2
+    m_BakeBackend: 2
+    m_PVRSampling: 1
+    m_PVRDirectSampleCount: 32
+    m_PVRSampleCount: 512
+    m_PVRBounces: 2
+    m_PVREnvironmentSampleCount: 256
+    m_PVREnvironmentReferencePointCount: 2048
+    m_PVRFilteringMode: 1
+    m_PVRDenoiserTypeDirect: 1
+    m_PVRDenoiserTypeIndirect: 1
+    m_PVRDenoiserTypeAO: 1
+    m_PVRFilterTypeDirect: 0
+    m_PVRFilterTypeIndirect: 0
+    m_PVRFilterTypeAO: 0
+    m_PVREnvironmentMIS: 1
+    m_PVRCulling: 1
+    m_PVRFilteringGaussRadiusDirect: 1
+    m_PVRFilteringGaussRadiusIndirect: 1
+    m_PVRFilteringGaussRadiusAO: 1
+    m_PVRFilteringAtrousPositionSigmaDirect: 0.5
+    m_PVRFilteringAtrousPositionSigmaIndirect: 2
+    m_PVRFilteringAtrousPositionSigmaAO: 1
+    m_ExportTrainingData: 0
+    m_TrainingDataDestination: TrainingData
+    m_LightProbeSampleCountMultiplier: 4
+  m_LightingDataAsset: {fileID: 20201, guid: 0000000000000000f000000000000000, type: 0}
+  m_LightingSettings: {fileID: 0}
+--- !u!196 &4
+NavMeshSettings:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_BuildSettings:
+    serializedVersion: 3
+    agentTypeID: 0
+    agentRadius: 0.5
+    agentHeight: 2
+    agentSlope: 45
+    agentClimb: 0.4
+    ledgeDropHeight: 0
+    maxJumpAcrossDistance: 0
+    minRegionArea: 2
+    manualCellSize: 0
+    cellSize: 0.16666667
+    manualTileSize: 0
+    tileSize: 256
+    buildHeightMesh: 0
+    maxJobWorkers: 0
+    preserveTilesOutsideBounds: 0
+    debug:
+      m_Flags: 0
+  m_NavMeshData: {fileID: 0}
+--- !u!1001 &30197414
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 3423191662688041791, guid: b9f21d4c376bd544db52591c6fba10a6, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 568
+      objectReference: {fileID: 0}
+    - target: {fileID: 3423191662688041791, guid: b9f21d4c376bd544db52591c6fba10a6, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 29.52
+      objectReference: {fileID: 0}
+    - target: {fileID: 3423191662688041791, guid: b9f21d4c376bd544db52591c6fba10a6, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 94
+      objectReference: {fileID: 0}
+    - target: {fileID: 3423191662688041791, guid: b9f21d4c376bd544db52591c6fba10a6, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.9530189
+      objectReference: {fileID: 0}
+    - target: {fileID: 3423191662688041791, guid: b9f21d4c376bd544db52591c6fba10a6, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3423191662688041791, guid: b9f21d4c376bd544db52591c6fba10a6, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.30291086
+      objectReference: {fileID: 0}
+    - target: {fileID: 3423191662688041791, guid: b9f21d4c376bd544db52591c6fba10a6, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3423191662688041791, guid: b9f21d4c376bd544db52591c6fba10a6, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3423191662688041791, guid: b9f21d4c376bd544db52591c6fba10a6, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3423191662688041791, guid: b9f21d4c376bd544db52591c6fba10a6, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7714132534188552417, guid: b9f21d4c376bd544db52591c6fba10a6, type: 3}
+      propertyPath: m_Name
+      value: Lootable_Pistol_6
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: b9f21d4c376bd544db52591c6fba10a6, type: 3}
+--- !u!1001 &68506204
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1945552371426102596, guid: 566b90e16894ae94dad459015334ab0c, type: 3}
+      propertyPath: m_Name
+      value: Lootable_Shotgun_8
+      objectReference: {fileID: 0}
+    - target: {fileID: 5266091437089226448, guid: 566b90e16894ae94dad459015334ab0c, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 563.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 5266091437089226448, guid: 566b90e16894ae94dad459015334ab0c, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 18.220001
+      objectReference: {fileID: 0}
+    - target: {fileID: 5266091437089226448, guid: 566b90e16894ae94dad459015334ab0c, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 276.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5266091437089226448, guid: 566b90e16894ae94dad459015334ab0c, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: -0.42889175
+      objectReference: {fileID: 0}
+    - target: {fileID: 5266091437089226448, guid: 566b90e16894ae94dad459015334ab0c, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5266091437089226448, guid: 566b90e16894ae94dad459015334ab0c, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.9033559
+      objectReference: {fileID: 0}
+    - target: {fileID: 5266091437089226448, guid: 566b90e16894ae94dad459015334ab0c, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5266091437089226448, guid: 566b90e16894ae94dad459015334ab0c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5266091437089226448, guid: 566b90e16894ae94dad459015334ab0c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5266091437089226448, guid: 566b90e16894ae94dad459015334ab0c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 566b90e16894ae94dad459015334ab0c, type: 3}
+--- !u!1 &134752731
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 134752732}
+  - component: {fileID: 134752733}
+  m_Layer: 0
+  m_Name: ZombieSpawner_North_Cliffside_Pine_Forest
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &134752732
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 134752731}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 480, y: 28.5, z: 565}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1850373869}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &134752733
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 134752731}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d71fe45ab3e544240bea969002961276, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::StarterAssets.ZombieSpawner
+  zoneName: North_Cliffside_Pine_Forest
+  zombiePrefab: {fileID: 5328580888422303836, guid: 0f355629a60bdca46ae71011d52a1e2c, type: 3}
+  targetPlayer: {fileID: 0}
+  playerSpawnPoint: {x: 479, y: 19, z: 148}
+  playerSpawnSafeRadius: 60
+  minPlayerDistance: 15
+  minDistanceBetweenZombies: 3.5
+  targetZombies: 15
+  initialZombies: 15
+  spawnRadius: 45
+  minGroundHeight: 15.6
+  spawnCheckInterval: 5
+  currentZombieCount: 0
+--- !u!1 &179754540
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 179754541}
+  - component: {fileID: 179754542}
+  m_Layer: 0
+  m_Name: ZombieSpawner_Lighthouse_Coastal_Forest
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &179754541
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 179754540}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 210, y: 22.5, z: 465}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1850373869}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &179754542
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 179754540}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d71fe45ab3e544240bea969002961276, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::StarterAssets.ZombieSpawner
+  zoneName: Lighthouse_Coastal_Forest
+  zombiePrefab: {fileID: 5328580888422303836, guid: 0f355629a60bdca46ae71011d52a1e2c, type: 3}
+  targetPlayer: {fileID: 0}
+  playerSpawnPoint: {x: 479, y: 19, z: 148}
+  playerSpawnSafeRadius: 60
+  minPlayerDistance: 15
+  minDistanceBetweenZombies: 3.5
+  targetZombies: 15
+  initialZombies: 15
+  spawnRadius: 40
+  minGroundHeight: 15.6
+  spawnCheckInterval: 5
+  currentZombieCount: 0
+--- !u!1001 &273308307
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 3268114978311675150, guid: 98520f7ba24739647b680e96d0182a0e, type: 3}
+      propertyPath: m_Name
+      value: Lootable_SniperRifle_13
+      objectReference: {fileID: 0}
+    - target: {fileID: 6419933284949834383, guid: 98520f7ba24739647b680e96d0182a0e, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 445
+      objectReference: {fileID: 0}
+    - target: {fileID: 6419933284949834383, guid: 98520f7ba24739647b680e96d0182a0e, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 17.82
+      objectReference: {fileID: 0}
+    - target: {fileID: 6419933284949834383, guid: 98520f7ba24739647b680e96d0182a0e, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 514
+      objectReference: {fileID: 0}
+    - target: {fileID: 6419933284949834383, guid: 98520f7ba24739647b680e96d0182a0e, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: -0.06566426
+      objectReference: {fileID: 0}
+    - target: {fileID: 6419933284949834383, guid: 98520f7ba24739647b680e96d0182a0e, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6419933284949834383, guid: 98520f7ba24739647b680e96d0182a0e, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.9978418
+      objectReference: {fileID: 0}
+    - target: {fileID: 6419933284949834383, guid: 98520f7ba24739647b680e96d0182a0e, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6419933284949834383, guid: 98520f7ba24739647b680e96d0182a0e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6419933284949834383, guid: 98520f7ba24739647b680e96d0182a0e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6419933284949834383, guid: 98520f7ba24739647b680e96d0182a0e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 98520f7ba24739647b680e96d0182a0e, type: 3}
+--- !u!1 &379213762
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 379213763}
+  - component: {fileID: 379213764}
+  m_Layer: 0
+  m_Name: ZombieSpawner_South_River_Woods_Forest
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &379213763
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 379213762}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 430, y: 16.5, z: 85}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1850373869}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &379213764
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 379213762}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d71fe45ab3e544240bea969002961276, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::StarterAssets.ZombieSpawner
+  zoneName: South_River_Woods_Forest
+  zombiePrefab: {fileID: 5328580888422303836, guid: 0f355629a60bdca46ae71011d52a1e2c, type: 3}
+  targetPlayer: {fileID: 0}
+  playerSpawnPoint: {x: 479, y: 19, z: 148}
+  playerSpawnSafeRadius: 60
+  minPlayerDistance: 15
+  minDistanceBetweenZombies: 3.5
+  targetZombies: 15
+  initialZombies: 15
+  spawnRadius: 38
+  minGroundHeight: 15.6
+  spawnCheckInterval: 5
+  currentZombieCount: 0
+--- !u!1001 &506108795
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 2601403684519541874, guid: 11a9bce451bfd35468d42a050d7d3850, type: 3}
+      propertyPath: m_Name
+      value: Lootable_SMG_9
+      objectReference: {fileID: 0}
+    - target: {fileID: 7522542188633927575, guid: 11a9bce451bfd35468d42a050d7d3850, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 500.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7522542188633927575, guid: 11a9bce451bfd35468d42a050d7d3850, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 21.52
+      objectReference: {fileID: 0}
+    - target: {fileID: 7522542188633927575, guid: 11a9bce451bfd35468d42a050d7d3850, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 365
+      objectReference: {fileID: 0}
+    - target: {fileID: 7522542188633927575, guid: 11a9bce451bfd35468d42a050d7d3850, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: -0.36590284
+      objectReference: {fileID: 0}
+    - target: {fileID: 7522542188633927575, guid: 11a9bce451bfd35468d42a050d7d3850, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7522542188633927575, guid: 11a9bce451bfd35468d42a050d7d3850, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.93065304
+      objectReference: {fileID: 0}
+    - target: {fileID: 7522542188633927575, guid: 11a9bce451bfd35468d42a050d7d3850, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7522542188633927575, guid: 11a9bce451bfd35468d42a050d7d3850, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7522542188633927575, guid: 11a9bce451bfd35468d42a050d7d3850, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7522542188633927575, guid: 11a9bce451bfd35468d42a050d7d3850, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 11a9bce451bfd35468d42a050d7d3850, type: 3}
+--- !u!1 &620230191
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 620230192}
+  - component: {fileID: 620230193}
+  m_Layer: 0
+  m_Name: ZombieSpawner_Barn_Compound_Houses
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &620230192
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 620230191}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 565, y: 29.5, z: 95}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1850373869}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &620230193
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 620230191}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d71fe45ab3e544240bea969002961276, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::StarterAssets.ZombieSpawner
+  zoneName: Barn_Compound_Houses
+  zombiePrefab: {fileID: 5328580888422303836, guid: 0f355629a60bdca46ae71011d52a1e2c, type: 3}
+  targetPlayer: {fileID: 0}
+  playerSpawnPoint: {x: 479, y: 19, z: 148}
+  playerSpawnSafeRadius: 60
+  minPlayerDistance: 15
+  minDistanceBetweenZombies: 3.5
+  targetZombies: 15
+  initialZombies: 15
+  spawnRadius: 42
+  minGroundHeight: 15.6
+  spawnCheckInterval: 5
+  currentZombieCount: 0
+--- !u!1001 &655208800
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1945552371426102596, guid: 566b90e16894ae94dad459015334ab0c, type: 3}
+      propertyPath: m_Name
+      value: Lootable_Shotgun_3
+      objectReference: {fileID: 0}
+    - target: {fileID: 5266091437089226448, guid: 566b90e16894ae94dad459015334ab0c, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 531.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 5266091437089226448, guid: 566b90e16894ae94dad459015334ab0c, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 17.220001
+      objectReference: {fileID: 0}
+    - target: {fileID: 5266091437089226448, guid: 566b90e16894ae94dad459015334ab0c, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 173.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5266091437089226448, guid: 566b90e16894ae94dad459015334ab0c, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.5960721
+      objectReference: {fileID: 0}
+    - target: {fileID: 5266091437089226448, guid: 566b90e16894ae94dad459015334ab0c, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5266091437089226448, guid: 566b90e16894ae94dad459015334ab0c, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.80293095
+      objectReference: {fileID: 0}
+    - target: {fileID: 5266091437089226448, guid: 566b90e16894ae94dad459015334ab0c, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5266091437089226448, guid: 566b90e16894ae94dad459015334ab0c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5266091437089226448, guid: 566b90e16894ae94dad459015334ab0c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5266091437089226448, guid: 566b90e16894ae94dad459015334ab0c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 566b90e16894ae94dad459015334ab0c, type: 3}
+--- !u!1 &794403088
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 794403091}
+  - component: {fileID: 794403090}
+  - component: {fileID: 794403089}
+  m_Layer: 0
+  m_Name: Directional Light
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &794403089
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 794403088}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 474bcb49853aa07438625e644c072ee6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.RenderPipelines.Universal.Runtime::UnityEngine.Rendering.Universal.UniversalAdditionalLightData
+  m_UsePipelineSettings: 1
+  m_AdditionalLightsShadowResolutionTier: 2
+  m_CustomShadowLayers: 0
+  m_LightCookieSize: {x: 1, y: 1}
+  m_LightCookieOffset: {x: 0, y: 0}
+  m_SoftShadowQuality: 0
+  m_RenderingLayersMask:
+    serializedVersion: 0
+    m_Bits: 1
+  m_ShadowRenderingLayersMask:
+    serializedVersion: 0
+    m_Bits: 1
+  m_Version: 4
+  m_LightLayerMask: 1
+  m_ShadowLayerMask: 1
+  m_RenderingLayers: 1
+  m_ShadowRenderingLayers: 1
+--- !u!108 &794403090
+Light:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 794403088}
+  m_Enabled: 1
+  serializedVersion: 13
+  m_Type: 1
+  m_Color: {r: 1, g: 0.95686275, b: 0.8392157, a: 1}
+  m_Intensity: 1
+  m_Range: 10
+  m_SpotAngle: 30
+  m_InnerSpotAngle: 21.80208
+  m_CookieSize2D: {x: 0.5, y: 0.5}
+  m_Shadows:
+    m_Type: 2
+    m_Resolution: -1
+    m_CustomResolution: -1
+    m_Strength: 1
+    m_Bias: 0.05
+    m_NormalBias: 0.4
+    m_NearPlane: 0.2
+    m_CullingMatrixOverride:
+      e00: 1
+      e01: 0
+      e02: 0
+      e03: 0
+      e10: 0
+      e11: 1
+      e12: 0
+      e13: 0
+      e20: 0
+      e21: 0
+      e22: 1
+      e23: 0
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    m_UseCullingMatrixOverride: 0
+  m_Cookie: {fileID: 0}
+  m_DrawHalo: 0
+  m_Flare: {fileID: 0}
+  m_RenderMode: 0
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RenderingLayerMask: 1
+  m_Lightmapping: 4
+  m_LightShadowCasterMode: 0
+  m_AreaSize: {x: 1, y: 1}
+  m_BounceIntensity: 1
+  m_ColorTemperature: 6570
+  m_UseColorTemperature: 0
+  m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 0}
+  m_UseBoundingSphereOverride: 0
+  m_UseViewFrustumForShadowCasterCull: 1
+  m_ForceVisible: 0
+  m_ShapeRadius: 0.025
+  m_ShadowAngle: 0
+  m_LightUnit: 1
+  m_LuxAtDistance: 1
+  m_EnableSpotReflector: 1
+--- !u!4 &794403091
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 794403088}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.40821788, y: -0.23456968, z: 0.10938163, w: 0.8754261}
+  m_LocalPosition: {x: 0, y: 3, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
+--- !u!1001 &808528936
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 3379754426436548506, guid: 2766a7edfc75aea47832a546d3cdc9a8, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 484.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3379754426436548506, guid: 2766a7edfc75aea47832a546d3cdc9a8, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 19.42
+      objectReference: {fileID: 0}
+    - target: {fileID: 3379754426436548506, guid: 2766a7edfc75aea47832a546d3cdc9a8, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 155.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3379754426436548506, guid: 2766a7edfc75aea47832a546d3cdc9a8, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: -0.8115821
+      objectReference: {fileID: 0}
+    - target: {fileID: 3379754426436548506, guid: 2766a7edfc75aea47832a546d3cdc9a8, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3379754426436548506, guid: 2766a7edfc75aea47832a546d3cdc9a8, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.5842384
+      objectReference: {fileID: 0}
+    - target: {fileID: 3379754426436548506, guid: 2766a7edfc75aea47832a546d3cdc9a8, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3379754426436548506, guid: 2766a7edfc75aea47832a546d3cdc9a8, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3379754426436548506, guid: 2766a7edfc75aea47832a546d3cdc9a8, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3379754426436548506, guid: 2766a7edfc75aea47832a546d3cdc9a8, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5299243602216380047, guid: 2766a7edfc75aea47832a546d3cdc9a8, type: 3}
+      propertyPath: m_Name
+      value: Lootable_AssaultRifle_1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 2766a7edfc75aea47832a546d3cdc9a8, type: 3}
+--- !u!1 &835289396
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 835289397}
+  - component: {fileID: 835289398}
+  m_Layer: 0
+  m_Name: ZombieSpawner_Shipping_Cargo_Harbor_Docks
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &835289397
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 835289396}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 230, y: 21, z: 410}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1850373869}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &835289398
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 835289396}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d71fe45ab3e544240bea969002961276, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::StarterAssets.ZombieSpawner
+  zoneName: Shipping_Cargo_Harbor_Docks
+  zombiePrefab: {fileID: 5328580888422303836, guid: 0f355629a60bdca46ae71011d52a1e2c, type: 3}
+  targetPlayer: {fileID: 0}
+  playerSpawnPoint: {x: 479, y: 19, z: 148}
+  playerSpawnSafeRadius: 60
+  minPlayerDistance: 15
+  minDistanceBetweenZombies: 3.5
+  targetZombies: 15
+  initialZombies: 15
+  spawnRadius: 38
+  minGroundHeight: 15.6
+  spawnCheckInterval: 5
+  currentZombieCount: 0
+--- !u!1 &930491192
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 930491193}
+  - component: {fileID: 930491194}
+  m_Layer: 0
+  m_Name: ZombieSpawner_West_Murky_Swamp_Forest
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &930491193
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 930491192}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 330, y: 16.5, z: 220}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1850373869}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &930491194
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 930491192}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d71fe45ab3e544240bea969002961276, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::StarterAssets.ZombieSpawner
+  zoneName: West_Murky_Swamp_Forest
+  zombiePrefab: {fileID: 5328580888422303836, guid: 0f355629a60bdca46ae71011d52a1e2c, type: 3}
+  targetPlayer: {fileID: 0}
+  playerSpawnPoint: {x: 479, y: 19, z: 148}
+  playerSpawnSafeRadius: 60
+  minPlayerDistance: 15
+  minDistanceBetweenZombies: 3.5
+  targetZombies: 15
+  initialZombies: 15
+  spawnRadius: 42
+  minGroundHeight: 15.6
+  spawnCheckInterval: 5
+  currentZombieCount: 0
+--- !u!1 &1049199947
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1049199948}
+  - component: {fileID: 1049199949}
+  m_Layer: 0
+  m_Name: ZombieSpawner_Central_Village_BrickHouses
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1049199948
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1049199947}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 375, y: 18.2, z: 260}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1850373869}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1049199949
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1049199947}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d71fe45ab3e544240bea969002961276, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::StarterAssets.ZombieSpawner
+  zoneName: Central_Village_BrickHouses
+  zombiePrefab: {fileID: 5328580888422303836, guid: 0f355629a60bdca46ae71011d52a1e2c, type: 3}
+  targetPlayer: {fileID: 0}
+  playerSpawnPoint: {x: 479, y: 19, z: 148}
+  playerSpawnSafeRadius: 60
+  minPlayerDistance: 15
+  minDistanceBetweenZombies: 3.5
+  targetZombies: 15
+  initialZombies: 15
+  spawnRadius: 42
+  minGroundHeight: 15.6
+  spawnCheckInterval: 5
+  currentZombieCount: 0
+--- !u!1 &1052202087
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1052202088}
+  - component: {fileID: 1052202089}
+  m_Layer: 0
+  m_Name: ZombieSpawner_Upper_Town_Avenue_Houses
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1052202088
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1052202087}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 430, y: 19.5, z: 420}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1850373869}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1052202089
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1052202087}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d71fe45ab3e544240bea969002961276, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::StarterAssets.ZombieSpawner
+  zoneName: Upper_Town_Avenue_Houses
+  zombiePrefab: {fileID: 5328580888422303836, guid: 0f355629a60bdca46ae71011d52a1e2c, type: 3}
+  targetPlayer: {fileID: 0}
+  playerSpawnPoint: {x: 479, y: 19, z: 148}
+  playerSpawnSafeRadius: 60
+  minPlayerDistance: 15
+  minDistanceBetweenZombies: 3.5
+  targetZombies: 15
+  initialZombies: 15
+  spawnRadius: 40
+  minGroundHeight: 15.6
+  spawnCheckInterval: 5
+  currentZombieCount: 0
+--- !u!1 &1073059622
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1073059623}
+  - component: {fileID: 1073059624}
+  m_Layer: 0
+  m_Name: ZombieSpawner_West_Road_Barricade_Outpost
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1073059623
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1073059622}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 305, y: 19.5, z: 285}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1850373869}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1073059624
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1073059622}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d71fe45ab3e544240bea969002961276, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::StarterAssets.ZombieSpawner
+  zoneName: West_Road_Barricade_Outpost
+  zombiePrefab: {fileID: 5328580888422303836, guid: 0f355629a60bdca46ae71011d52a1e2c, type: 3}
+  targetPlayer: {fileID: 0}
+  playerSpawnPoint: {x: 479, y: 19, z: 148}
+  playerSpawnSafeRadius: 60
+  minPlayerDistance: 15
+  minDistanceBetweenZombies: 3.5
+  targetZombies: 15
+  initialZombies: 15
+  spawnRadius: 38
+  minGroundHeight: 15.6
+  spawnCheckInterval: 5
+  currentZombieCount: 0
+--- !u!1001 &1075030737
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 3423191662688041791, guid: b9f21d4c376bd544db52591c6fba10a6, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 472
+      objectReference: {fileID: 0}
+    - target: {fileID: 3423191662688041791, guid: b9f21d4c376bd544db52591c6fba10a6, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 19.32
+      objectReference: {fileID: 0}
+    - target: {fileID: 3423191662688041791, guid: b9f21d4c376bd544db52591c6fba10a6, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 142.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3423191662688041791, guid: b9f21d4c376bd544db52591c6fba10a6, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: -0.97935313
+      objectReference: {fileID: 0}
+    - target: {fileID: 3423191662688041791, guid: b9f21d4c376bd544db52591c6fba10a6, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3423191662688041791, guid: b9f21d4c376bd544db52591c6fba10a6, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.20215712
+      objectReference: {fileID: 0}
+    - target: {fileID: 3423191662688041791, guid: b9f21d4c376bd544db52591c6fba10a6, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3423191662688041791, guid: b9f21d4c376bd544db52591c6fba10a6, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3423191662688041791, guid: b9f21d4c376bd544db52591c6fba10a6, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3423191662688041791, guid: b9f21d4c376bd544db52591c6fba10a6, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7714132534188552417, guid: b9f21d4c376bd544db52591c6fba10a6, type: 3}
+      propertyPath: m_Name
+      value: Lootable_Pistol_2
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: b9f21d4c376bd544db52591c6fba10a6, type: 3}
+--- !u!1 &1124773139
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1124773140}
+  - component: {fileID: 1124773141}
+  m_Layer: 0
+  m_Name: ZombieSpawner_Grand_Villa_Estate_Houses
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1124773140
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1124773139}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 555, y: 25.5, z: 445}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1850373869}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1124773141
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1124773139}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d71fe45ab3e544240bea969002961276, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::StarterAssets.ZombieSpawner
+  zoneName: Grand_Villa_Estate_Houses
+  zombiePrefab: {fileID: 5328580888422303836, guid: 0f355629a60bdca46ae71011d52a1e2c, type: 3}
+  targetPlayer: {fileID: 0}
+  playerSpawnPoint: {x: 479, y: 19, z: 148}
+  playerSpawnSafeRadius: 60
+  minPlayerDistance: 15
+  minDistanceBetweenZombies: 3.5
+  targetZombies: 15
+  initialZombies: 15
+  spawnRadius: 42
+  minGroundHeight: 15.6
+  spawnCheckInterval: 5
+  currentZombieCount: 0
+--- !u!1 &1145225118
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1145225119}
+  - component: {fileID: 1145225120}
+  m_Layer: 0
+  m_Name: ZombieSpawner_North_Stilt_Cabins_Houses
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1145225119
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1145225118}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 500, y: 21.5, z: 365}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1850373869}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1145225120
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1145225118}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d71fe45ab3e544240bea969002961276, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::StarterAssets.ZombieSpawner
+  zoneName: North_Stilt_Cabins_Houses
+  zombiePrefab: {fileID: 5328580888422303836, guid: 0f355629a60bdca46ae71011d52a1e2c, type: 3}
+  targetPlayer: {fileID: 0}
+  playerSpawnPoint: {x: 479, y: 19, z: 148}
+  playerSpawnSafeRadius: 60
+  minPlayerDistance: 15
+  minDistanceBetweenZombies: 3.5
+  targetZombies: 15
+  initialZombies: 15
+  spawnRadius: 40
+  minGroundHeight: 15.6
+  spawnCheckInterval: 5
+  currentZombieCount: 0
+--- !u!1 &1154278853
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1154278856}
+  - component: {fileID: 1154278855}
+  - component: {fileID: 1154278854}
+  m_Layer: 0
+  m_Name: Main Camera
+  m_TagString: MainCamera
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!81 &1154278854
+AudioListener:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1154278853}
+  m_Enabled: 1
+--- !u!20 &1154278855
+Camera:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1154278853}
+  m_Enabled: 1
+  serializedVersion: 2
+  m_ClearFlags: 1
+  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
+  m_projectionMatrixMode: 1
+  m_GateFitMode: 2
+  m_FOVAxisMode: 0
+  m_Iso: 200
+  m_ShutterSpeed: 0.005
+  m_Aperture: 16
+  m_FocusDistance: 10
+  m_FocalLength: 50
+  m_BladeCount: 5
+  m_Curvature: {x: 2, y: 11}
+  m_BarrelClipping: 0.25
+  m_Anamorphism: 0
+  m_SensorSize: {x: 36, y: 24}
+  m_LensShift: {x: 0, y: 0}
+  m_NormalizedViewPortRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1
+    height: 1
+  near clip plane: 0.05
+  far clip plane: 1000
+  field of view: 60
+  orthographic: 0
+  orthographic size: 5
+  m_Depth: -1
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RenderingPath: -1
+  m_TargetTexture: {fileID: 0}
+  m_TargetDisplay: 0
+  m_TargetEye: 3
+  m_HDR: 1
+  m_AllowMSAA: 1
+  m_AllowDynamicResolution: 0
+  m_ForceIntoRT: 0
+  m_OcclusionCulling: 1
+  m_StereoConvergence: 10
+  m_StereoSeparation: 0.022
+--- !u!4 &1154278856
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1154278853}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 1, z: -10}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1254200849
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1254200850}
+  - component: {fileID: 1254200851}
+  m_Layer: 0
+  m_Name: ZombieSpawner_Far_East_Border_Ridge_Forest
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1254200850
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1254200849}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 655, y: 25, z: 230}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1850373869}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1254200851
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1254200849}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d71fe45ab3e544240bea969002961276, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::StarterAssets.ZombieSpawner
+  zoneName: Far_East_Border_Ridge_Forest
+  zombiePrefab: {fileID: 5328580888422303836, guid: 0f355629a60bdca46ae71011d52a1e2c, type: 3}
+  targetPlayer: {fileID: 0}
+  playerSpawnPoint: {x: 479, y: 19, z: 148}
+  playerSpawnSafeRadius: 60
+  minPlayerDistance: 15
+  minDistanceBetweenZombies: 3.5
+  targetZombies: 15
+  initialZombies: 15
+  spawnRadius: 42
+  minGroundHeight: 15.6
+  spawnCheckInterval: 5
+  currentZombieCount: 0
+--- !u!1001 &1274504359
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 3268114978311675150, guid: 98520f7ba24739647b680e96d0182a0e, type: 3}
+      propertyPath: m_Name
+      value: Lootable_SniperRifle_5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6419933284949834383, guid: 98520f7ba24739647b680e96d0182a0e, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 564.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6419933284949834383, guid: 98520f7ba24739647b680e96d0182a0e, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 29.52
+      objectReference: {fileID: 0}
+    - target: {fileID: 6419933284949834383, guid: 98520f7ba24739647b680e96d0182a0e, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 92.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6419933284949834383, guid: 98520f7ba24739647b680e96d0182a0e, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: -0.35280964
+      objectReference: {fileID: 0}
+    - target: {fileID: 6419933284949834383, guid: 98520f7ba24739647b680e96d0182a0e, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6419933284949834383, guid: 98520f7ba24739647b680e96d0182a0e, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.9356951
+      objectReference: {fileID: 0}
+    - target: {fileID: 6419933284949834383, guid: 98520f7ba24739647b680e96d0182a0e, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6419933284949834383, guid: 98520f7ba24739647b680e96d0182a0e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6419933284949834383, guid: 98520f7ba24739647b680e96d0182a0e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6419933284949834383, guid: 98520f7ba24739647b680e96d0182a0e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 98520f7ba24739647b680e96d0182a0e, type: 3}
+--- !u!1 &1290292063
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1290292064}
+  - component: {fileID: 1290292065}
+  m_Layer: 0
+  m_Name: ZombieSpawner_Ruined_Church_Deep_Forest
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1290292064
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1290292063}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 645, y: 17.5, z: 480}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1850373869}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1290292065
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1290292063}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d71fe45ab3e544240bea969002961276, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::StarterAssets.ZombieSpawner
+  zoneName: Ruined_Church_Deep_Forest
+  zombiePrefab: {fileID: 5328580888422303836, guid: 0f355629a60bdca46ae71011d52a1e2c, type: 3}
+  targetPlayer: {fileID: 0}
+  playerSpawnPoint: {x: 479, y: 19, z: 148}
+  playerSpawnSafeRadius: 60
+  minPlayerDistance: 15
+  minDistanceBetweenZombies: 3.5
+  targetZombies: 15
+  initialZombies: 15
+  spawnRadius: 45
+  minGroundHeight: 15.6
+  spawnCheckInterval: 5
+  currentZombieCount: 0
+--- !u!1 &1347771544
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1347771545}
+  - component: {fileID: 1347771546}
+  m_Layer: 0
+  m_Name: ZombieSpawner_Hillside_Villa_Manor_Houses
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1347771545
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1347771544}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 525, y: 22, z: 525}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1850373869}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1347771546
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1347771544}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d71fe45ab3e544240bea969002961276, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::StarterAssets.ZombieSpawner
+  zoneName: Hillside_Villa_Manor_Houses
+  zombiePrefab: {fileID: 5328580888422303836, guid: 0f355629a60bdca46ae71011d52a1e2c, type: 3}
+  targetPlayer: {fileID: 0}
+  playerSpawnPoint: {x: 479, y: 19, z: 148}
+  playerSpawnSafeRadius: 60
+  minPlayerDistance: 15
+  minDistanceBetweenZombies: 3.5
+  targetZombies: 15
+  initialZombies: 15
+  spawnRadius: 42
+  minGroundHeight: 15.6
+  spawnCheckInterval: 5
+  currentZombieCount: 0
+--- !u!1 &1387720752
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1387720753}
+  - component: {fileID: 1387720754}
+  m_Layer: 0
+  m_Name: ZombieSpawner_Riverside_Cabins_Pier
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1387720753
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1387720752}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 545, y: 18.2, z: 285}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1850373869}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1387720754
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1387720752}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d71fe45ab3e544240bea969002961276, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::StarterAssets.ZombieSpawner
+  zoneName: Riverside_Cabins_Pier
+  zombiePrefab: {fileID: 5328580888422303836, guid: 0f355629a60bdca46ae71011d52a1e2c, type: 3}
+  targetPlayer: {fileID: 0}
+  playerSpawnPoint: {x: 479, y: 19, z: 148}
+  playerSpawnSafeRadius: 60
+  minPlayerDistance: 15
+  minDistanceBetweenZombies: 3.5
+  targetZombies: 15
+  initialZombies: 15
+  spawnRadius: 42
+  minGroundHeight: 15.6
+  spawnCheckInterval: 5
+  currentZombieCount: 0
+--- !u!1 &1388745937
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1388745939}
+  - component: {fileID: 1388745938}
+  m_Layer: 0
+  m_Name: HouseGunSpawner
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1388745938
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1388745937}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 40aa5b8051abc5a43bf894efcce87b63, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::StarterAssets.HouseGunSpawner
+  availableGuns:
+  - gunName: Tactical Pistol
+    gunType: 0
+    gunPrefab: {fileID: 7714132534188552417, guid: b9f21d4c376bd544db52591c6fba10a6, type: 3}
+    spawnWeight: 35
+  - gunName: Rapid SMG
+    gunType: 3
+    gunPrefab: {fileID: 2601403684519541874, guid: 11a9bce451bfd35468d42a050d7d3850, type: 3}
+    spawnWeight: 25
+  - gunName: Combat Shotgun
+    gunType: 2
+    gunPrefab: {fileID: 1945552371426102596, guid: 566b90e16894ae94dad459015334ab0c, type: 3}
+    spawnWeight: 20
+  - gunName: Assault Rifle
+    gunType: 1
+    gunPrefab: {fileID: 5299243602216380047, guid: 2766a7edfc75aea47832a546d3cdc9a8, type: 3}
+    spawnWeight: 15
+  - gunName: Heavy Sniper Rifle
+    gunType: 4
+    gunPrefab: {fileID: 3268114978311675150, guid: 98520f7ba24739647b680e96d0182a0e, type: 3}
+    spawnWeight: 5
+  targetGunCount: 14
+  minDistanceBetweenGuns: 9
+  respawnCheckInterval: 30
+  autoRespawn: 1
+  houseInteriorPoints:
+  - {x: 484.5, y: 19.4, z: 155.2}
+  - {x: 472, y: 19.3, z: 142.5}
+  - {x: 531.3, y: 17.2, z: 173.1}
+  - {x: 559.4, y: 29.5, z: 90.8}
+  - {x: 564.2, y: 29.5, z: 92.5}
+  - {x: 568, y: 29.5, z: 94}
+  - {x: 561.5, y: 17.5, z: 271}
+  - {x: 563.8, y: 18.2, z: 276.5}
+  - {x: 500.5, y: 21.5, z: 365}
+  - {x: 400, y: 17.5, z: 293}
+  - {x: 385, y: 17.5, z: 293}
+  - {x: 415, y: 17.2, z: 478}
+  - {x: 445, y: 17.8, z: 514}
+  - {x: 371.5, y: 17.6, z: 265}
+  - {x: 371.5, y: 17.6, z: 271.5}
+  - {x: 450.5, y: 19.5, z: 435}
+  - {x: 453, y: 24.5, z: 439}
+  - {x: 516.5, y: 26.8, z: 533.5}
+  - {x: 524, y: 21, z: 523.5}
+  - {x: 556, y: 25, z: 442}
+  - {x: 558.5, y: 25, z: 445}
+  - {x: 416.1, y: 18, z: 477.8}
+  - {x: 250, y: 26, z: 430}
+  - {x: 255, y: 26, z: 440}
+  - {x: 245, y: 36, z: 435}
+--- !u!4 &1388745939
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1388745937}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1453752941
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1453752942}
+  - component: {fileID: 1453752943}
+  m_Layer: 0
+  m_Name: ZombieSpawner_Eastern_Farmland_Cabins
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1453752942
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1453752941}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 595, y: 28.5, z: 120}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1850373869}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1453752943
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1453752941}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d71fe45ab3e544240bea969002961276, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::StarterAssets.ZombieSpawner
+  zoneName: Eastern_Farmland_Cabins
+  zombiePrefab: {fileID: 5328580888422303836, guid: 0f355629a60bdca46ae71011d52a1e2c, type: 3}
+  targetPlayer: {fileID: 0}
+  playerSpawnPoint: {x: 479, y: 19, z: 148}
+  playerSpawnSafeRadius: 60
+  minPlayerDistance: 15
+  minDistanceBetweenZombies: 3.5
+  targetZombies: 15
+  initialZombies: 15
+  spawnRadius: 38
+  minGroundHeight: 15.6
+  spawnCheckInterval: 5
+  currentZombieCount: 0
+--- !u!1001 &1551289508
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 3423191662688041791, guid: b9f21d4c376bd544db52591c6fba10a6, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 400
+      objectReference: {fileID: 0}
+    - target: {fileID: 3423191662688041791, guid: b9f21d4c376bd544db52591c6fba10a6, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 17.52
+      objectReference: {fileID: 0}
+    - target: {fileID: 3423191662688041791, guid: b9f21d4c376bd544db52591c6fba10a6, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 293
+      objectReference: {fileID: 0}
+    - target: {fileID: 3423191662688041791, guid: b9f21d4c376bd544db52591c6fba10a6, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: -0.59868646
+      objectReference: {fileID: 0}
+    - target: {fileID: 3423191662688041791, guid: b9f21d4c376bd544db52591c6fba10a6, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3423191662688041791, guid: b9f21d4c376bd544db52591c6fba10a6, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.8009835
+      objectReference: {fileID: 0}
+    - target: {fileID: 3423191662688041791, guid: b9f21d4c376bd544db52591c6fba10a6, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3423191662688041791, guid: b9f21d4c376bd544db52591c6fba10a6, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3423191662688041791, guid: b9f21d4c376bd544db52591c6fba10a6, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3423191662688041791, guid: b9f21d4c376bd544db52591c6fba10a6, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7714132534188552417, guid: b9f21d4c376bd544db52591c6fba10a6, type: 3}
+      propertyPath: m_Name
+      value: Lootable_Pistol_10
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: b9f21d4c376bd544db52591c6fba10a6, type: 3}
+--- !u!1001 &1700681783
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 2601403684519541874, guid: 11a9bce451bfd35468d42a050d7d3850, type: 3}
+      propertyPath: m_Name
+      value: Lootable_SMG_4
+      objectReference: {fileID: 0}
+    - target: {fileID: 7522542188633927575, guid: 11a9bce451bfd35468d42a050d7d3850, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 559.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 7522542188633927575, guid: 11a9bce451bfd35468d42a050d7d3850, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 29.52
+      objectReference: {fileID: 0}
+    - target: {fileID: 7522542188633927575, guid: 11a9bce451bfd35468d42a050d7d3850, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 90.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 7522542188633927575, guid: 11a9bce451bfd35468d42a050d7d3850, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: -0.9856694
+      objectReference: {fileID: 0}
+    - target: {fileID: 7522542188633927575, guid: 11a9bce451bfd35468d42a050d7d3850, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7522542188633927575, guid: 11a9bce451bfd35468d42a050d7d3850, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.16868885
+      objectReference: {fileID: 0}
+    - target: {fileID: 7522542188633927575, guid: 11a9bce451bfd35468d42a050d7d3850, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7522542188633927575, guid: 11a9bce451bfd35468d42a050d7d3850, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7522542188633927575, guid: 11a9bce451bfd35468d42a050d7d3850, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7522542188633927575, guid: 11a9bce451bfd35468d42a050d7d3850, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 11a9bce451bfd35468d42a050d7d3850, type: 3}
+--- !u!1001 &1774240239
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 3379754426436548506, guid: 2766a7edfc75aea47832a546d3cdc9a8, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 385
+      objectReference: {fileID: 0}
+    - target: {fileID: 3379754426436548506, guid: 2766a7edfc75aea47832a546d3cdc9a8, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 17.52
+      objectReference: {fileID: 0}
+    - target: {fileID: 3379754426436548506, guid: 2766a7edfc75aea47832a546d3cdc9a8, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 293
+      objectReference: {fileID: 0}
+    - target: {fileID: 3379754426436548506, guid: 2766a7edfc75aea47832a546d3cdc9a8, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.9972206
+      objectReference: {fileID: 0}
+    - target: {fileID: 3379754426436548506, guid: 2766a7edfc75aea47832a546d3cdc9a8, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3379754426436548506, guid: 2766a7edfc75aea47832a546d3cdc9a8, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.074506104
+      objectReference: {fileID: 0}
+    - target: {fileID: 3379754426436548506, guid: 2766a7edfc75aea47832a546d3cdc9a8, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3379754426436548506, guid: 2766a7edfc75aea47832a546d3cdc9a8, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3379754426436548506, guid: 2766a7edfc75aea47832a546d3cdc9a8, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3379754426436548506, guid: 2766a7edfc75aea47832a546d3cdc9a8, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5299243602216380047, guid: 2766a7edfc75aea47832a546d3cdc9a8, type: 3}
+      propertyPath: m_Name
+      value: Lootable_AssaultRifle_11
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 2766a7edfc75aea47832a546d3cdc9a8, type: 3}
+--- !u!1001 &1798648968
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 3379754426436548506, guid: 2766a7edfc75aea47832a546d3cdc9a8, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 561.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3379754426436548506, guid: 2766a7edfc75aea47832a546d3cdc9a8, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 17.52
+      objectReference: {fileID: 0}
+    - target: {fileID: 3379754426436548506, guid: 2766a7edfc75aea47832a546d3cdc9a8, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 271
+      objectReference: {fileID: 0}
+    - target: {fileID: 3379754426436548506, guid: 2766a7edfc75aea47832a546d3cdc9a8, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: -0.951439
+      objectReference: {fileID: 0}
+    - target: {fileID: 3379754426436548506, guid: 2766a7edfc75aea47832a546d3cdc9a8, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3379754426436548506, guid: 2766a7edfc75aea47832a546d3cdc9a8, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.30783725
+      objectReference: {fileID: 0}
+    - target: {fileID: 3379754426436548506, guid: 2766a7edfc75aea47832a546d3cdc9a8, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3379754426436548506, guid: 2766a7edfc75aea47832a546d3cdc9a8, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3379754426436548506, guid: 2766a7edfc75aea47832a546d3cdc9a8, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3379754426436548506, guid: 2766a7edfc75aea47832a546d3cdc9a8, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5299243602216380047, guid: 2766a7edfc75aea47832a546d3cdc9a8, type: 3}
+      propertyPath: m_Name
+      value: Lootable_AssaultRifle_7
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 2766a7edfc75aea47832a546d3cdc9a8, type: 3}
+--- !u!1 &1850373868
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1850373869}
+  m_Layer: 0
+  m_Name: Map_Zombie_Spawners
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1850373869
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1850373868}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 620230192}
+  - {fileID: 1453752942}
+  - {fileID: 1387720753}
+  - {fileID: 1145225119}
+  - {fileID: 1049199948}
+  - {fileID: 1052202088}
+  - {fileID: 1124773140}
+  - {fileID: 1347771545}
+  - {fileID: 2004805635}
+  - {fileID: 835289397}
+  - {fileID: 1073059623}
+  - {fileID: 1996111572}
+  - {fileID: 1254200850}
+  - {fileID: 1290292064}
+  - {fileID: 134752732}
+  - {fileID: 179754541}
+  - {fileID: 930491193}
+  - {fileID: 379213763}
+  - {fileID: 2020559476}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &1922897693
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1945552371426102596, guid: 566b90e16894ae94dad459015334ab0c, type: 3}
+      propertyPath: m_Name
+      value: Lootable_Shotgun_12
+      objectReference: {fileID: 0}
+    - target: {fileID: 5266091437089226448, guid: 566b90e16894ae94dad459015334ab0c, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 415
+      objectReference: {fileID: 0}
+    - target: {fileID: 5266091437089226448, guid: 566b90e16894ae94dad459015334ab0c, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 17.220001
+      objectReference: {fileID: 0}
+    - target: {fileID: 5266091437089226448, guid: 566b90e16894ae94dad459015334ab0c, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 478
+      objectReference: {fileID: 0}
+    - target: {fileID: 5266091437089226448, guid: 566b90e16894ae94dad459015334ab0c, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.88337106
+      objectReference: {fileID: 0}
+    - target: {fileID: 5266091437089226448, guid: 566b90e16894ae94dad459015334ab0c, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5266091437089226448, guid: 566b90e16894ae94dad459015334ab0c, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.46867427
+      objectReference: {fileID: 0}
+    - target: {fileID: 5266091437089226448, guid: 566b90e16894ae94dad459015334ab0c, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5266091437089226448, guid: 566b90e16894ae94dad459015334ab0c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5266091437089226448, guid: 566b90e16894ae94dad459015334ab0c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5266091437089226448, guid: 566b90e16894ae94dad459015334ab0c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 566b90e16894ae94dad459015334ab0c, type: 3}
+--- !u!1001 &1972900704
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 2601403684519541874, guid: 11a9bce451bfd35468d42a050d7d3850, type: 3}
+      propertyPath: m_Name
+      value: Lootable_SMG_14
+      objectReference: {fileID: 0}
+    - target: {fileID: 7522542188633927575, guid: 11a9bce451bfd35468d42a050d7d3850, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 371.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7522542188633927575, guid: 11a9bce451bfd35468d42a050d7d3850, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 17.62
+      objectReference: {fileID: 0}
+    - target: {fileID: 7522542188633927575, guid: 11a9bce451bfd35468d42a050d7d3850, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 265
+      objectReference: {fileID: 0}
+    - target: {fileID: 7522542188633927575, guid: 11a9bce451bfd35468d42a050d7d3850, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: -0.48762465
+      objectReference: {fileID: 0}
+    - target: {fileID: 7522542188633927575, guid: 11a9bce451bfd35468d42a050d7d3850, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7522542188633927575, guid: 11a9bce451bfd35468d42a050d7d3850, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.87305343
+      objectReference: {fileID: 0}
+    - target: {fileID: 7522542188633927575, guid: 11a9bce451bfd35468d42a050d7d3850, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7522542188633927575, guid: 11a9bce451bfd35468d42a050d7d3850, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7522542188633927575, guid: 11a9bce451bfd35468d42a050d7d3850, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7522542188633927575, guid: 11a9bce451bfd35468d42a050d7d3850, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 11a9bce451bfd35468d42a050d7d3850, type: 3}
+--- !u!1 &1996111571
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1996111572}
+  - component: {fileID: 1996111573}
+  m_Layer: 0
+  m_Name: ZombieSpawner_East_Pine_Forest
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1996111572
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1996111571}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 620, y: 26.5, z: 175}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1850373869}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1996111573
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1996111571}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d71fe45ab3e544240bea969002961276, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::StarterAssets.ZombieSpawner
+  zoneName: East_Pine_Forest
+  zombiePrefab: {fileID: 5328580888422303836, guid: 0f355629a60bdca46ae71011d52a1e2c, type: 3}
+  targetPlayer: {fileID: 0}
+  playerSpawnPoint: {x: 479, y: 19, z: 148}
+  playerSpawnSafeRadius: 60
+  minPlayerDistance: 15
+  minDistanceBetweenZombies: 3.5
+  targetZombies: 15
+  initialZombies: 15
+  spawnRadius: 45
+  minGroundHeight: 15.6
+  spawnCheckInterval: 5
+  currentZombieCount: 0
+--- !u!1 &2004805634
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2004805635}
+  - component: {fileID: 2004805636}
+  m_Layer: 0
+  m_Name: ZombieSpawner_Industrial_Warehouse_Depot
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2004805635
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2004805634}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 250, y: 26.5, z: 435}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1850373869}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2004805636
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2004805634}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d71fe45ab3e544240bea969002961276, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::StarterAssets.ZombieSpawner
+  zoneName: Industrial_Warehouse_Depot
+  zombiePrefab: {fileID: 5328580888422303836, guid: 0f355629a60bdca46ae71011d52a1e2c, type: 3}
+  targetPlayer: {fileID: 0}
+  playerSpawnPoint: {x: 479, y: 19, z: 148}
+  playerSpawnSafeRadius: 60
+  minPlayerDistance: 15
+  minDistanceBetweenZombies: 3.5
+  targetZombies: 15
+  initialZombies: 15
+  spawnRadius: 40
+  minGroundHeight: 15.6
+  spawnCheckInterval: 5
+  currentZombieCount: 0
+--- !u!1 &2020559475
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2020559476}
+  - component: {fileID: 2020559477}
+  m_Layer: 0
+  m_Name: ZombieSpawner_SouthWest_Pine_Grove_Forest
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2020559476
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2020559475}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 370, y: 18, z: 110}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1850373869}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2020559477
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2020559475}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d71fe45ab3e544240bea969002961276, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::StarterAssets.ZombieSpawner
+  zoneName: SouthWest_Pine_Grove_Forest
+  zombiePrefab: {fileID: 5328580888422303836, guid: 0f355629a60bdca46ae71011d52a1e2c, type: 3}
+  targetPlayer: {fileID: 0}
+  playerSpawnPoint: {x: 479, y: 19, z: 148}
+  playerSpawnSafeRadius: 60
+  minPlayerDistance: 15
+  minDistanceBetweenZombies: 3.5
+  targetZombies: 15
+  initialZombies: 15
+  spawnRadius: 40
+  minGroundHeight: 15.6
+  spawnCheckInterval: 5
+  currentZombieCount: 0
+--- !u!1660057539 &9223372036854775807
+SceneRoots:
+  m_ObjectHideFlags: 0
+  m_Roots:
+  - {fileID: 1154278856}
+  - {fileID: 794403091}
+  - {fileID: 1388745939}
+  - {fileID: 1850373869}
+  - {fileID: 808528936}
+  - {fileID: 1075030737}
+  - {fileID: 655208800}
+  - {fileID: 1700681783}
+  - {fileID: 1274504359}
+  - {fileID: 30197414}
+  - {fileID: 1798648968}
+  - {fileID: 68506204}
+  - {fileID: 506108795}
+  - {fileID: 1551289508}
+  - {fileID: 1774240239}
+  - {fileID: 1922897693}
+  - {fileID: 273308307}
+  - {fileID: 1972900704}
